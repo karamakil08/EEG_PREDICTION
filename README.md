@@ -30,7 +30,7 @@ The raw EEG data was processed by calculating the Band Power for every channel a
 - Gamma: 31 – 50 Hz
 
 > [!NOTE]
-> The signal processing method used in this study is the same as the signal processing method used in this study by Sasmaz et al. "A simplified method for relapsing-remitting multiple sclerosis detection: Insights from resting EEG signals".
+> The signal processing method used in this study is the same as the signal processing method used in this study by Sasmaz et al[^1].
 
 ### 2. Machine Learning Pipeline
 We implemented and compared several classification algorithms to identify the best performer for this specific signal type:
@@ -73,4 +73,4 @@ Requirements
 ## Conclusion
 While the machine learning models were successfully implemented, the sample size (10 subjects) proved too small for a robust clinical classification model. Future iterations of this study would require a significantly larger dataset to validate the efficacy of these EEG biomarkers.
 
-> The study mentioned: https://www.sciencedirect.com/science/article/pii/S0010482524008138
+[^1]:Şaşmaz Karacan, S., & Saraoğlu, H. M. (2024). A simplified method for relapsing-remitting multiple sclerosis detection: Insights from resting EEG signals. Computers in Biology and Medicine, 178, 108728. https://doi.org/10.1016/j.compbiomed.2024.108728
